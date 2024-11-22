@@ -1,0 +1,90 @@
+*{
+    padding:0;
+    margin:0;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding:20px;
+}
+h1,ul,li{
+    display:inline;
+    
+}
+ul{
+    margin-left: 60%;
+}
+h1{
+    margin-left: 20px;
+}
+
+.box{
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    
+    display: inline-block;
+    width: 300px;
+    
+    
+    margin: 20px;
+    
+}
+.box:hover{
+    background-color: green;
+    color: white;
+}
+ul{
+    color: gray;
+    
+}
+li:hover{
+    color: white;
+    cursor: pointer;
+}
+.images{
+    text-align: center;
+}
+.details{
+    text-align: center;
+    
+display: block;
+
+}
+.register{
+    background-color: blue;
+    width: 500px;
+    text-align: center;
+    margin-left: 500px;
+    padding: 5px;
+    display: block;
+}
+.register:hover{
+    cursor:pointer;
+}
+.Contact{
+    background-color:black;
+    margin-top:20px ;
+    padding: 20px;
+    color: white;
+    text-align: justify;
+}
+.now{
+    margin-top: 5px;
+    
+}
+.now:hover{
+    cursor: pointer;
+}
+.search{
+    width:800px;
+    padding: 20px;
+    margin-top: 20px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+.about{
+    padding:20px;
+    text-align: justify;
+}
